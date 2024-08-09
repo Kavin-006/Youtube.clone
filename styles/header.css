@@ -1,0 +1,126 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height:65px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid ;
+    border-bottom-color:rgb(228, 228, 228);  
+    z-index: 100; 
+}
+.left-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar-3{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+.youtube-logo{
+    height:20px;
+    margin-right: 20px;
+}
+.mid-sec{
+    display:flex;
+    flex:1;
+    align-items: center;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+.search-box{
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+    flex:1;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 0;
+    height: 36px;
+}
+.search-box::placeholder{
+    font-family: roboto;
+    font-size: 16px;
+}
+.search-icon{
+    height:24px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.search-button{
+    border-radius: 2px;
+    border-color: rgb(192,192,192);
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width:60px;
+    background-color: rgb(240,240,240);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.voice-icon{
+    margin-top: 4px;
+    height: 24px;
+}
+.voice-button{
+    border-radius: 20px;
+    border:none;
+    height: 40px;
+    width:40px;
+    background-color: rgb(240,240,240);
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.end-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.create-icon{
+    height: 24px;
+}
+.apps-icon{
+    height: 24px;
+}
+.notify-icon{
+    height: 24px;
+}
+.account-icon{
+    height: 24px;
+    border-radius: 16px;
+}
+.notify-container{
+    position: relative;
+}
+.notifications{
+    position: absolute;
+    top:-2px;
+    left:-4px;
+    background-color: rgb(200, 0, 0);
+    color:white;
+    font-size: 11px;
+    font-family: roboto;
+    border: none;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+

@@ -1,0 +1,56 @@
+.fname{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 4px;
+    display: inline-block;
+    width:125px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.lname{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    width:125px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.email{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4px;
+    border-width: 1px;
+    display: block;
+    width:280px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.signup{
+    border:none;
+    background-color: rgb(9, 91, 199);
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width:300px;
+    
+}
